@@ -1,7 +1,0 @@
-/Users/da-art/Desktop/study/patterns/Example_05/Example _05/bin/Debug/Example _05.exe.config
-/Users/da-art/Desktop/study/patterns/Example_05/Example _05/bin/Debug/Example _05.exe
-/Users/da-art/Desktop/study/patterns/Example_05/Example _05/bin/Debug/Example _05.pdb
-/Users/da-art/Desktop/study/patterns/Example_05/Example _05/obj/Debug/Example _05.csprojAssemblyReference.cache
-/Users/da-art/Desktop/study/patterns/Example_05/Example _05/obj/Debug/Example _05.csproj.CoreCompileInputs.cache
-/Users/da-art/Desktop/study/patterns/Example_05/Example _05/obj/Debug/Example _05.exe
-/Users/da-art/Desktop/study/patterns/Example_05/Example _05/obj/Debug/Example _05.pdb

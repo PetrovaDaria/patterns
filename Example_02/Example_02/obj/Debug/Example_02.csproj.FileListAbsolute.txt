@@ -1,8 +1,0 @@
-C:/Users/cepaq/Dropbox/Лекции/Паттерны/2019 - Паттерны/examples/Example_02/Example_02/bin/Debug/Example_02.exe.config
-/Users/da-art/Desktop/patterns/Example_02/Example_02/bin/Debug/Example_02.exe.config
-/Users/da-art/Desktop/patterns/Example_02/Example_02/bin/Debug/Example_02.exe
-/Users/da-art/Desktop/patterns/Example_02/Example_02/bin/Debug/Example_02.pdb
-/Users/da-art/Desktop/patterns/Example_02/Example_02/obj/Debug/Example_02.csprojAssemblyReference.cache
-/Users/da-art/Desktop/patterns/Example_02/Example_02/obj/Debug/Example_02.csproj.CoreCompileInputs.cache
-/Users/da-art/Desktop/patterns/Example_02/Example_02/obj/Debug/Example_02.exe
-/Users/da-art/Desktop/patterns/Example_02/Example_02/obj/Debug/Example_02.pdb
