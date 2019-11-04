@@ -1,0 +1,14 @@
+C:/Users/sam/Dropbox/Работа/Extreme/Лекции/Паттерны/2019 - Паттерны/examples/Example_03/Example_03/obj/Debug/Example_03.csprojAssemblyReference.cache
+C:/Users/sam/Dropbox/Работа/Extreme/Лекции/Паттерны/2019 - Паттерны/examples/Example_03/Example_03/obj/Debug/Example_03.csproj.CoreCompileInputs.cache
+C:/Users/sam/Dropbox/Работа/Extreme/Лекции/Паттерны/2019 - Паттерны/examples/Example_03/Example_03/bin/Debug/Example_03.exe.config
+C:/Users/sam/Dropbox/Работа/Extreme/Лекции/Паттерны/2019 - Паттерны/examples/Example_03/Example_03/bin/Debug/Example_03.exe
+C:/Users/sam/Dropbox/Работа/Extreme/Лекции/Паттерны/2019 - Паттерны/examples/Example_03/Example_03/bin/Debug/Example_03.pdb
+C:/Users/sam/Dropbox/Работа/Extreme/Лекции/Паттерны/2019 - Паттерны/examples/Example_03/Example_03/obj/Debug/Example_03.exe
+C:/Users/sam/Dropbox/Работа/Extreme/Лекции/Паттерны/2019 - Паттерны/examples/Example_03/Example_03/obj/Debug/Example_03.pdb
+/Users/da-art/Desktop/patterns/Example_03/Example_03/bin/Debug/Example_03.exe.config
+/Users/da-art/Desktop/patterns/Example_03/Example_03/bin/Debug/Example_03.exe
+/Users/da-art/Desktop/patterns/Example_03/Example_03/bin/Debug/Example_03.pdb
+/Users/da-art/Desktop/patterns/Example_03/Example_03/obj/Debug/Example_03.csprojAssemblyReference.cache
+/Users/da-art/Desktop/patterns/Example_03/Example_03/obj/Debug/Example_03.csproj.CoreCompileInputs.cache
+/Users/da-art/Desktop/patterns/Example_03/Example_03/obj/Debug/Example_03.exe
+/Users/da-art/Desktop/patterns/Example_03/Example_03/obj/Debug/Example_03.pdb

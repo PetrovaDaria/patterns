@@ -1,0 +1,9 @@
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\bin\Debug\Example_04.exe.config
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\bin\Debug\Example_04.exe
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\bin\Debug\Example_04.pdb
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\obj\Debug\Example_04.csprojAssemblyReference.cache
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\obj\Debug\Example_04.csproj.CoreCompileInputs.cache
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\obj\Debug\Example_04.exe
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\obj\Debug\Example_04.pdb
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\obj\Debug\Example_04.Properties.Resources.resources
+C:\Users\sam\Dropbox\Работа\Extreme\Лекции\Паттерны\2019 - Паттерны\examples\Example_04\Example_04\obj\Debug\Example_04.csproj.GenerateResource.cache
