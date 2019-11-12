@@ -4,6 +4,9 @@ using Example_04.Adapters.ClassAdapters;
 using Example_04.Adapters.Libs;
 using Example_04.Adapters.ObjectAdapters;
 using Example_04.Composites;
+using Example_04.Homework.Clients;
+using Example_04.Homework.FirstOrmLibrary;
+using Example_04.Homework.Models;
 
 namespace Example_04
 {

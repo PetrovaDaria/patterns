@@ -7,17 +7,20 @@ namespace Example_04.Homework.Clients
 {
     public class UserClient
     {
-        private IOrmAdapter _ormAdapter;
+        private readonly IOrmAdapter _ormAdapter;
 
-        private IFirstOrm<DbUserEntity> _firstOrm1;
-        private IFirstOrm<DbUserInfoEntity> _firstOrm2;
+        //private IFirstOrm<DbUserEntity> _firstOrm1;
+        //private IFirstOrm<DbUserInfoEntity> _firstOrm2;
 
-        private ISecondOrm _secondOrm;
+        //private ISecondOrm _secondOrm;
 
-        private bool _useFirstOrm = true;
+        //private bool _useFirstOrm = false;
 
         public (DbUserEntity, DbUserInfoEntity) Get(int userId)
         {
+            return _ormAdapter.Read(userId);
+
+            /*
             if (_useFirstOrm)
             {
                 var user = _firstOrm1.Read(userId);
@@ -30,13 +33,14 @@ namespace Example_04.Homework.Clients
                 var userInfo = _secondOrm.Context.UserInfos.First(i => i.Id == user.InfoId);
                 return (user, userInfo);
             }
-
-            // you should return DbUserEntity via _ormAdapter
-            return (null, null);
+            */
         }
 
         public void Add(DbUserEntity user, DbUserInfoEntity userInfo)
         {
+            _ormAdapter.Add(user, userInfo);
+
+            /*
             if (_useFirstOrm)
             {
                 _firstOrm1.Add(user);
@@ -47,12 +51,16 @@ namespace Example_04.Homework.Clients
                 _secondOrm.Context.Users.Add(user);
                 _secondOrm.Context.UserInfos.Add(userInfo);
             }
+            */
 
             // you should create DbUserEntity and DbUserInfoEntity via _ormAdapter
         }
 
         public void Remove(int userId)
         {
+            _ormAdapter.Delete(userId);
+
+            /*
             if (_useFirstOrm)
             {
                 var user = _firstOrm1.Read(userId);
@@ -69,6 +77,7 @@ namespace Example_04.Homework.Clients
                 _secondOrm.Context.UserInfos.Remove(userInfo);
                 _secondOrm.Context.Users.Remove(user);
             }
+            */
 
             // you should remove DbUserEntity and DbUserInfoEntity via _ormAdapter
         }

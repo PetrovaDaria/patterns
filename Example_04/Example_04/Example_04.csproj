@@ -70,6 +70,8 @@
     <Compile Include="Adapters\Libs\MathHelper.cs" />
     <Compile Include="Adapters\ObjectAdapters\ObjectAdapter.cs" />
     <Compile Include="Composites\Menu.cs" />
+    <Compile Include="Homework\Clients\FirstOrmAdapter.cs" />
+    <Compile Include="Homework\Clients\SecondOrmAdapter.cs" />
     <Compile Include="Homework\Clients\UserClient.cs" />
     <Compile Include="Homework\Clients\IOrmAdapter.cs" />
     <Compile Include="Homework\FirstOrmLibrary\IFirstOrm.cs" />
