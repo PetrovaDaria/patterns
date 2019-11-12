@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Example__05.ChatClient;
 using Example__05.Decorator;
 using Example__05.Flyweight;
@@ -9,33 +10,20 @@ namespace Example__05
     {
         static void Main(string[] args)
         {
-            ChatClientExample();
+            //ChatClientExample();
             //DecoratorExample();
             //FlyweightExample();
-
+            ChatClientExample();
             Console.ReadKey();
         }
 
         public static void ChatClientExample()
         {
-            IChatClient chatClient1 = new ChatClient.ChatClient("first");
-            IChatClient chatClient2 = new ChatClient.ChatClient("second");
-            // chatClient1 = new NameShadowDecorator(chatClient1);
-            chatClient2 = new CypherDecorator(chatClient2);
-
-            var message1 = new Message(chatClient1.Login, chatClient2.Login, "hi, second");
-            var message2 = new Message(chatClient1.Login, chatClient2.Login, "how are you?");
-            chatClient1.SendMessage(message1);
-            chatClient1.SendMessage(message2);
-
-            var chatClient2Messages = chatClient2.GetMessages();
-            chatClient2Messages.ForEach(Console.WriteLine);
-
-            var message3 = new Message(chatClient2.Login, chatClient1.Login, "HI! I'm fine!");
-            chatClient2.SendMessage(message3);
-
-            var chatClient1Messages = chatClient1.GetMessages();
-            chatClient1Messages.ForEach(Console.WriteLine);
+            IChatClient chatClient = new ChatClient.ChatClient();
+            chatClient = new ChatDecoratorBuilder(chatClient)
+                .WithTextCiphering()
+                .WithNameHiding()
+                .Build();
         }
 
         public static void DecoratorExample()

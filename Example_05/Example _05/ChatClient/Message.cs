@@ -1,17 +1,15 @@
-using System;
-
 namespace Example__05.ChatClient
 {
     public class Message
     {
-        public string Author { get; }
-        public string Recipient { get;  }
-        public string Text { get; }
+        public string From;
+        public string To;
+        public string Text;
 
-        public Message(string author, string recipient, string text)
+        public Message(string from, string to, string text)
         {
-            Author = author;
-            Recipient = recipient;
+            From = from;
+            To = to;
             Text = text;
         }
     }

@@ -47,6 +47,7 @@
     <Compile Include="Bridge\Before.cs" />
     <Compile Include="ChatClient\ChatClient.cs" />
     <Compile Include="ChatClient\Decorator.cs" />
+    <Compile Include="ChatClient\ChatDecoratorBuilder.cs" />
     <Compile Include="ChatClient\IChatClient.cs" />
     <Compile Include="ChatClient\Message.cs" />
     <Compile Include="Decorator\Calcuator.cs" />
