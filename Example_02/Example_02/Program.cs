@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Example_02.AbstractFactoryExample;
+using Example_02.CarFactory;
 using Example_02.FactoryMethodExample;
 using Example_02.PrototypeExample;
 using Example_02.SingletonExample;
@@ -11,12 +12,38 @@ namespace Example_02
     {
         private static void Main(string[] args)
         {
-            Runner.Run();
+            //Runner.Run();
             //AbstractFactoryExample();
             //PrototypeExample();
+            CarFactoryExample();
 
             Console.ReadKey();
         }
+
+        #region CarFactoryExample
+
+        public static void CarFactoryExample()
+        {
+            var bmwFactory = new BMWFactory();
+            PrintCarCharacteristics(bmwFactory);
+
+            var audiFactory = new AudiFactory();
+            PrintCarCharacteristics(audiFactory);
+        }
+
+        public static void PrintCarCharacteristics(ICarFactory factory)
+        {
+            var body = factory.CreateBody();
+            var engine = factory.CreateEngine();
+            var cabin = factory.CreateCabin();
+
+            Console.WriteLine(
+                "Ширина кузова: {0}, высота кузова: {1}, количество лошадиных сил: {2}, вместимость: {3}",
+                body.Width, body.Height, engine.HorsePower, cabin.Capacity
+            );
+        }
+
+        #endregion
 
         #region AbstractFactoryExample
 

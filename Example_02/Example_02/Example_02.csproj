@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CarFactory\CarFactory.cs" />
     <Compile Include="FactoryMethodExample\ClassicFactoryMethod.cs" />
     <Compile Include="PrototypeExample\Prototype.cs" />
     <Compile Include="SingletonExample\DoubleCheckSingleton.cs" />
