@@ -16,9 +16,6 @@ namespace Xrm.ReportUtility.Services
             _args = args;
         }
 
-        // Шаблонный метод
-        // Определяется последовательность методов
-        // Метод GetDataRows переопределяется подклассами
         public Report CreateReport()
         {
             var config = ParseConfig();
